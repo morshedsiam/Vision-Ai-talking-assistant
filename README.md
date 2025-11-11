@@ -1,4 +1,4 @@
-# Mimi VTuber AI Assistant (Local, Offline-Friendly)
+# Mimi AI Assistant (Local, Offline-Friendly)
 
 A local VTuber assistant that:
 - Sees your screen (screen capture)
@@ -44,5 +44,6 @@ This README covers setup, running, features, and troubleshooting.
 - Ollama installed and running (for LLM)
 
 ---
+
 
 
