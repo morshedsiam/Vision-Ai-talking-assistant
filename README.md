@@ -30,21 +30,6 @@ This README covers setup, running, features, and troubleshooting.
 ---
 
 
-## 🧱 Project Structure
-├── datasets/ # Your YOLO dataset and splits
-│ └── data.yaml
-├── runs/train/screen_detector_v13/ # Trained weights
-│ └── weights/best.pt
-├── screen_capture.py # Thread-safe MSS capture
-├── yolo_detector.py # YOLO detection wrapper
-├── clip_captioner.py # CLIP scene descriptions
-├── screen_understanding.py # YOLO + CLIP fusion
-├── vtuber_ai_ollama.py # VTuber brain (Ollama)
-├── automation_controller.py # Mouse/keyboard automation
-├── voice_controller.py # TTS (aggressive fix)
-├── smart_youtube_search.py # Smart YouTube automations
-├── mimi_gui.py # GUI chat + screen monitor (main)
-└── vtuber_env/ # Python virtual environment
 
 
 
@@ -60,10 +45,4 @@ This README covers setup, running, features, and troubleshooting.
 
 ---
 
-## 🔧 Installation
 
-1) Create and activate a virtual environment
-```bash
-python -m venv vtuber_env
-# Windows:
-vtuber_env\Scripts\activate
